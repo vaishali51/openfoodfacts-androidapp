@@ -51,6 +51,12 @@ import static org.apache.commons.lang3.StringUtils.isBlank;
 import static org.apache.commons.lang3.StringUtils.isNotBlank;
 import static org.apache.commons.lang3.StringUtils.isNotEmpty;
 
+/**
+ * Handles product addition to the database.
+ *
+ * @see layout/activity_save_product_offline.xml
+ * @author ross-holloway94
+ */
 public class SaveProductOfflineActivity extends BaseActivity {
 
     private final String[] mUnit = new String[1];
